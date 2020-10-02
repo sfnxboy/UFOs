@@ -22,3 +22,11 @@ function buildTable(data) {
     });
 
 };
+
+function handleClick() {
+    // .select will select the very first element that matches our selector string "#datetime"
+    // So the date calue will be nested within tags that have an id of 'datetime'
+    // we're telling d3 to look for where our date values are stored on the webpage
+    let date = d3.select('#datetime').property("value");
+    
+}
