@@ -11,10 +11,13 @@ function buildTable(data) {
     // the paranthesis hold an empty string
     tbody.html("");
 
+    // Next, loop through each object in the data
+    // and append a row and cells for each value in the row
     data.forEach((dataRow) => {
         let row = tbody.append("tr");
         Object.values(dataRow).forEach((val) => {
-
+            let cell = row.append("td");
+            cell.text(val);
         });
     });
 
