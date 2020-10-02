@@ -28,5 +28,20 @@ function handleClick() {
     // So the date calue will be nested within tags that have an id of 'datetime'
     // we're telling d3 to look for where our date values are stored on the webpage
     let date = d3.select('#datetime').property("value");
-    
+
+    let filterData = tableData;
+
+    if (data) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+    };
+
+    // Rebuild the table using the filtered data
+    // @NOTE: If no date was entered, then filteredData will
+    // just be the original tableData.
+    buildTable(filteredData);
 }
+// By adding .on("click", handleClick);, we're telling D3 to execute our handleClick() function when the button with an id of filter-btn is clicked
+d3.select("#filter-btn").on("click",handleClick);
+
+// Build the table when the page loads.
+buildTable(tableData);
