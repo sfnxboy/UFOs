@@ -26,4 +26,5 @@ This site is informative, and easy to navigate. However, with a few adjustments 
 Happy Star Gazing!
 
 LinkedIn: linkedin.com/in/amir-eltabakh
+
 Email: amireltabakh22@gmail.com
