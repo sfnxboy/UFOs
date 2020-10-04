@@ -14,9 +14,9 @@ Considering we removed the filter button in the most recent version of the site,
 d3.selectAll("input").on("change", updateFilters);
 ```
 
-![image](https://user-images.githubusercontent.com/68082808/95022095-087e4300-0643-11eb-8adc-5e3776f68109.png)
-
 This code tells the D3.js library to listen for any input changes within the filter input textboxes, and then calls the updateFilters function that is written within the app.js file.
+
+![image](https://user-images.githubusercontent.com/68082808/95022095-087e4300-0643-11eb-8adc-5e3776f68109.png)
  
 After filtering the table to include only sightings in the State of Arizona, the site outputs three data points. 
 
