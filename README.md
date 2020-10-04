@@ -21,3 +21,9 @@ This code tells the D3.js library to listen for any input changes within the fil
 After filtering the table to include only sightings in the State of Arizona, the site outputs three data points. 
 
 ## Summary
+
+This site is informative, and easy to navigate. However, with a few adjustments it can become enlightening and illuminating. By adding a link to a list of influential individuals relevant to the field of ufology, a visitor of the site may become more invested in its rich history. The site may also benefit from by growing and nurturing a community of individuals interested in what lies beyond. By adding a section on the home page regarding upcoming gatherings, and community events, more people may become more invested in the subject. Adding the site owners social media at the bottom of the site may also increase traffic to and from the website. My last recommendation regarding this sites development has to do with the site owners activity on the site itself. Having a blog on the website is considered to be one of the most effective ways to build engagement with a brand and encourages people to visit the site regularly. Updating the blog with informative, entertaining, and engaging content encourages visitors to keep returning to the site.
+Happy Star Gazing!
+
+LinkedIn: linkedin.com/in/amir-eltabakh
+Email: amireltabakh22@gmail.com
