@@ -9,7 +9,7 @@ Although a Filter button was part of previous versions of the website, a visitor
 ```
 d3.selectAll("#filter-btn").on("click", handleClick);
 ```
-Considering we removed the filter button in the most recent version of the site, the code for D3 to listen to for any changes in the filter parameters:
+Considering we removed the filter button in the most recent version of the site, the code for D3 to listen to for any changes in the filter parameters is as follows:
 ```
 d3.selectAll("input").on("change", updateFilters);
 ```
